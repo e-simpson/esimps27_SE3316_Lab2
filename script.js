@@ -9,8 +9,8 @@ $(document).ready(function(){
     $( "#enter" ).click(function() {
         var text = $('#enterFruit').val()
         var find = ($('#fruits > li:contains("' + text + '")' ))
-        var filteredFind = find.filter(function() {return $(this).text() === text;})
-        $('#basket').append(filteredFind)
+        find.filter(function() {return $(this).text() === text })
+        $('#basket').append(find)
         $('#enterFruit').val('')
     });
     
