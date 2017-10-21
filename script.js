@@ -15,4 +15,3 @@ $(document).ready(function(){
         if (e.which == 13) { $("#enter").click();}
     });
 });
-    
