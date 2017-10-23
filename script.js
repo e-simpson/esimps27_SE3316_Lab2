@@ -28,7 +28,6 @@ function addListener(){
     })
 }
 
-
 function loadJavascript(){
     loadFruit()
     addListener()
